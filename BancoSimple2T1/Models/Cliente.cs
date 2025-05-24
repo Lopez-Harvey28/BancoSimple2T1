@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace BancoSimple2T1.Models
 {
-    public class Cliente
+    [Key]
+        public class Cliente
     {
         public int ClienteId { get; set; }
         public string Nombre { get; set; }
