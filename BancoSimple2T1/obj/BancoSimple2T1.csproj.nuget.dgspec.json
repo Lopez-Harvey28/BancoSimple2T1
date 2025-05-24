@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\DELL\\Downloads\\BancoSimple2T1-main (1)\\BancoSimple2T1-main\\BancoSimple2T1\\BancoSimple2T1.csproj": {}
   },
   "projects": {
@@ -15,6 +16,26 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+    "C:\\Users\\bioma\\Downloads\\BancoSimple2T1\\BancoSimple2T1\\BancoSimple2T1\\BancoSimple2T1.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\bioma\\Downloads\\BancoSimple2T1\\BancoSimple2T1\\BancoSimple2T1\\BancoSimple2T1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bioma\\Downloads\\BancoSimple2T1\\BancoSimple2T1\\BancoSimple2T1\\BancoSimple2T1.csproj",
+        "projectName": "BancoSimple2T1",
+        "projectPath": "C:\\Users\\bioma\\Downloads\\BancoSimple2T1\\BancoSimple2T1\\BancoSimple2T1\\BancoSimple2T1.csproj",
+        "packagesPath": "C:\\Users\\bioma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bioma\\Downloads\\BancoSimple2T1\\BancoSimple2T1\\BancoSimple2T1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bioma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> 0bd72ef ( Primero modificacion:Se modifico el nombre del objeto con el cual se accede a BancoSSimpleContext, para evitar confusiones y que se maneje un termino al momento de usar BancoSimpleContext)
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +43,10 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+<<<<<<< HEAD
+=======
+          "C:\\Program Files\\dotnet\\library-packs": {},
+>>>>>>> 0bd72ef ( Primero modificacion:Se modifico el nombre del objeto con el cual se accede a BancoSSimpleContext, para evitar confusiones y que se maneje un termino al momento de usar BancoSimpleContext)
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

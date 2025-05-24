@@ -20,7 +20,11 @@ namespace BancoSimple2T1
             InitializeComponent();
             _clienteId = clienteId;
         }
+<<<<<<< HEAD
         // Maneja el evento de clic del botón Aceptar y crea la cuenta si los datos son válidos
+=======
+
+>>>>>>> 0bd72ef ( Primero modificacion:Se modifico el nombre del objeto con el cual se accede a BancoSSimpleContext, para evitar confusiones y que se maneje un termino al momento de usar BancoSimpleContext)
         private void btnAceptar_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(txtNumeroCuenta.Text))
@@ -31,7 +35,11 @@ namespace BancoSimple2T1
 
             NuevaCuenta = new Cuenta
             {
+<<<<<<< HEAD
                 NumeroCuenta = txtNumeroCuenta.Text.Trim(),
+=======
+                NumeroCuenta = txtNumeroCuenta.Text,
+>>>>>>> 0bd72ef ( Primero modificacion:Se modifico el nombre del objeto con el cual se accede a BancoSSimpleContext, para evitar confusiones y que se maneje un termino al momento de usar BancoSimpleContext)
                 Saldo = numSaldoInicial.Value,
                 ClienteId = _clienteId,
                 Activa = true

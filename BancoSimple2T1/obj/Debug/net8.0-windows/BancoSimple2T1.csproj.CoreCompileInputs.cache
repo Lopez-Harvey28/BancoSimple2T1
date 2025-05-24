@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 44f0f7995a4559df7816f54aa21bddf35c17e3fd7468731c3d50f78bbc034174
+=======
+f37b9a68ccdce1f83581e1883cb762d63890283e67e2d1092466e85ad6fe9898
+>>>>>>> 0bd72ef ( Primero modificacion:Se modifico el nombre del objeto con el cual se accede a BancoSSimpleContext, para evitar confusiones y que se maneje un termino al momento de usar BancoSimpleContext)

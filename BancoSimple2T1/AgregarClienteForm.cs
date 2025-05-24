@@ -13,7 +13,10 @@ namespace BancoSimple2T1
 {
     public partial class AgregarClienteForm : Form
     {
+<<<<<<< HEAD
         // Cliente creado al aceptar el formulario
+=======
+>>>>>>> 0bd72ef ( Primero modificacion:Se modifico el nombre del objeto con el cual se accede a BancoSSimpleContext, para evitar confusiones y que se maneje un termino al momento de usar BancoSimpleContext)
         public Cliente NuevoCliente { get; private set; }
         public AgregarClienteForm()
         {
@@ -30,7 +33,11 @@ namespace BancoSimple2T1
             NuevoCliente = new Cliente
             {
                 Nombre = txtNombre.Text,
+<<<<<<< HEAD
                 Identificacion = txtIdentificacion.Text.Trim(),
+=======
+                Identificacion = txtIdentificacion.Text
+>>>>>>> 0bd72ef ( Primero modificacion:Se modifico el nombre del objeto con el cual se accede a BancoSSimpleContext, para evitar confusiones y que se maneje un termino al momento de usar BancoSimpleContext)
             };
             DialogResult = DialogResult.OK;
             Close();

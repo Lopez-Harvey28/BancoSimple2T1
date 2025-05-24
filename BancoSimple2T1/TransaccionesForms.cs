@@ -14,12 +14,20 @@ namespace BancoSimple2T1
 {
     public partial class TransaccionesForms : Form
     {
+<<<<<<< HEAD
         // Se ocupa el readonly para que no se pueda modificar el monto desde fuera de la clase
         public decimal Monto { get; private set; }
         private readonly int _cuentaOrigenId;
         private readonly int _cuentaDestinoId;
         //Haremos los mismos cambios que hicimos anteriormente
         private readonly BancoSimpleContext _dbcontext;
+=======
+        public decimal Monto { get; private set; }
+        private int _cuentaOrigenId;
+        private int _cuentaDestinoId;
+        //Haremos los mismos cambios que hicimos anteriormente
+        private BancoSimpleContext _dbcontext;
+>>>>>>> 0bd72ef ( Primero modificacion:Se modifico el nombre del objeto con el cual se accede a BancoSSimpleContext, para evitar confusiones y que se maneje un termino al momento de usar BancoSimpleContext)
         public TransaccionesForms(int cuentaOrigenId, int cuentaDestinoId)
         {
             InitializeComponent();
@@ -27,11 +35,19 @@ namespace BancoSimple2T1
             _cuentaDestinoId = cuentaDestinoId;
             //Se cambio aquí
             _dbcontext = new BancoSimpleContext();
+<<<<<<< HEAD
             CargarInformacionCuenta();
 
         }
         // Se coloca el modificador private para que no se pueda acceder desde fuera de la clase
         private void CargarInformacionCuenta()
+=======
+            CargarInfoCuenta();
+
+        }
+
+        private void CargarInfoCuenta()
+>>>>>>> 0bd72ef ( Primero modificacion:Se modifico el nombre del objeto con el cual se accede a BancoSSimpleContext, para evitar confusiones y que se maneje un termino al momento de usar BancoSimpleContext)
         {
             //Y aqui tambien 
             var cuentaOrigen = _dbcontext.Cuentas.

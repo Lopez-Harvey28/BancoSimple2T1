@@ -290,6 +290,7 @@ C:\Users\bioma\Downloads\BancoSimple2T1\BancoSimple2T1\BancoSimple2T1\obj\Debug\
 C:\Users\bioma\Downloads\BancoSimple2T1\BancoSimple2T1\BancoSimple2T1\obj\Debug\net8.0-windows\BancoSimple2T1.pdb
 C:\Users\bioma\Downloads\BancoSimple2T1\BancoSimple2T1\BancoSimple2T1\obj\Debug\net8.0-windows\BancoSimple2T1.genruntimeconfig.cache
 C:\Users\bioma\Downloads\BancoSimple2T1\BancoSimple2T1\BancoSimple2T1\obj\Debug\net8.0-windows\ref\BancoSimple2T1.dll
+<<<<<<< HEAD
 C:\Users\DELL\Downloads\BancoSimple2T1-main (1)\BancoSimple2T1-main\BancoSimple2T1\bin\Debug\net8.0-windows\BancoSimple2T1.exe
 C:\Users\DELL\Downloads\BancoSimple2T1-main (1)\BancoSimple2T1-main\BancoSimple2T1\bin\Debug\net8.0-windows\BancoSimple2T1.deps.json
 C:\Users\DELL\Downloads\BancoSimple2T1-main (1)\BancoSimple2T1-main\BancoSimple2T1\bin\Debug\net8.0-windows\BancoSimple2T1.runtimeconfig.json
@@ -437,3 +438,5 @@ C:\Users\DELL\Downloads\BancoSimple2T1-main (1)\BancoSimple2T1-main\BancoSimple2
 C:\Users\DELL\Downloads\BancoSimple2T1-main (1)\BancoSimple2T1-main\BancoSimple2T1\obj\Debug\net8.0-windows\BancoSimple2T1.genruntimeconfig.cache
 C:\Users\DELL\Downloads\BancoSimple2T1-main (1)\BancoSimple2T1-main\BancoSimple2T1\obj\Debug\net8.0-windows\ref\BancoSimple2T1.dll
 C:\Users\DELL\Downloads\BancoSimple2T1-main (1)\BancoSimple2T1-main\BancoSimple2T1\obj\Debug\net8.0-windows\BancoSimple2T1.Properties.Resources.resources
+=======
+>>>>>>> 0bd72ef ( Primero modificacion:Se modifico el nombre del objeto con el cual se accede a BancoSSimpleContext, para evitar confusiones y que se maneje un termino al momento de usar BancoSimpleContext)
